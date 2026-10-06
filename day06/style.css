@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.counter-container {
+    width: 300px;
+    margin: 100px auto;
+}
+
+#count {
+    font-size: 60px;
+    font-weight: bold;
+    color:red;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    color:yellow;
+}
