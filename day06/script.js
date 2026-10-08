@@ -1,21 +1,25 @@
+
+const increaseButton = document.getElementById("increment");
+const decreaseButton = document.getElementById("decrement");
+const resetButton = document.getElementById("reset");
+const countlabel = document.getElementById("countlabel");
+
 let count = 0;
 
-const countDisplay = document.getElementById("count");
-const increaseButton = document.getElementById("increase");
-const decreaseButton = document.getElementById("decrease");
-const resetButton = document.getElementById("reset");
-
-increaseButton.addEventListener("click", function () {
+increaseButton.onclick = function () {
     count++;
-    countDisplay.textContent = count;
-});
+    countlabel.textContent = count;
+}
 
-decreaseButton.addEventListener("click", function () {
+
+decreaseButton.onclick = function () {
     count--;
-    countDisplay.textContent = count;
-});
+    countlabel.textContent = count;
+}
 
-resetButton.addEventListener("click", function () {
+
+
+resetButton.onclick = function () {
     count = 0;
-    countDisplay.textContent = count;
-});
+    countlabel.textContent = count;
+}
