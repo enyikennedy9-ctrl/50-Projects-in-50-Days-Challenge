@@ -13,3 +13,11 @@ body{
     align-items: center;
     padding: 30px;
 }
+
+#Submit{
+    color:red;
+    background-color:black;
+    border:1px solid black;
+    border-radius:10px;
+    display:center;
+}

@@ -7,17 +7,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Student Registration</h1>
-        <p class="subtitle">Fill in your details to Register</p>
-        <form>
+    <header>
+         <h1><ins>Student Registration Form</ins></h1>
+            <div><img src="funai.jpg" alt="School Logo"></div>
+    </header>
             <div class="form-group">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
+                <form>
+                    <p class="subtitle">Fill in your details to Register</p><br>
+                <b> <label for="name">Full Name:</label></b>
+                <input type="text" id="name" name="name" required><br><br>
+                <b><label for="telephone">Your phone number</label></b>
+                <input type="tel" name="telephone" id="telephone"><br><br>
+                <b><label for="Date of Birth">Date of Birth:</label></b>
+                <input type="date"/><hr><br><br>
+                <b><label for="Gender">Gender:</label></b>
+                <b><label for="Gender">Male</label></b>
+                <input type="radio" name="Gender" id="Male"><br><br>
+                <b><label for="Gender">Female</label></b>
+                <input type="radio" name="Gender" id="Female"><hr>
+                <b>Areas Of Interest:</b><br>
+                <b><label for="AI"></label></b>
+                <input type="checkbox"/>
+                <b><label for="Data Analysis">Data Analysis</label></b>
+                <input type="checkbox"/>
+                <b><label for="Front End Developement">Front End Development</label></b>
+                <input type="checkbox"/>
+                <b><label for="Sofware Engeneering">Software Engeering</label></b>
+                <input type="checkbox"/><br><br>
+                <b><label for="Email">Email:</label></b>
+                <input type="email"/><hr><br><br>
+                <b><label for="sponsor's">Sponsor's Full Name</label></b>
+                <input type="text" name="sponsor's name" id="sponsor's name"><br><br>
+                <b><label for="telephone">Sponsor's phone number</label></b>
+                <input type="tel" name="telephone" id="telephone"><br><br>
+                <b><label for="Gender">Gender:</label></b>
+                <b><label for="Gender">Male</label></b>
+                <input type="radio" name="Gender" id="Male"><br><br>
+                <b><label for="Gender">Female</label></b>
+                <input type="radio" name="Gender" id="Female"><hr><br><br>
+                <b><label for="Submit">Register</label></b>
+                <input type="submit" id="Submit">
+                </form>
+                
             </div>
+                
+    
             
-        </form>
-    </div>
+        
+    
     
 </body>
 </html>
