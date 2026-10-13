@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practiced Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <aside class="checkbar">
+            <div class="checkbar-header">
+                <h2>My Notes</h2>
+                <button class="input-note-btn">+ New Note</button>
+            </div>
+            <ul class="notes-list">
+                <li class="note-item-bought">
+                    <div class="note-item-title">Edible List</div>
+                    <div class="note-item-snippet">Milk, eggs, bread, coffee...</div>
+                </li>
+                <li class="note-item">
+                    <div class="note-item-title">Project asignment</div>
+                    <div class="note-item-snippet">Build a Note App...</div>
+                </li>
+            </ul>
+        </aside>
+
+        
+        <main class="note-editor">
+            <div class="note-editor-header">
+                <input type="text" class="note-title-input" placeholder=" Put Title of  your note...">
+                <div class="editor-actions">
+                    <button class="action-btn save-btn">Save</button>
+                    <button class="action-btn delete-btn">Delete</button>
+                </div>
+            </div>
+            <textarea class="note-body-textarea" placeholder="Type in your notes here..."></textarea>
+        </main>
+    </div>
+
+</body>
+</html>
